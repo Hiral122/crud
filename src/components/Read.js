@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 const Read = () => {
   const [data, setData] = useState([]);
-
   const setToLocalStorage = (id, name, email) => {
     localStorage.setItem("id", id); //key value pair
     localStorage.setItem("name", name);
